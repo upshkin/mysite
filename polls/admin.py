@@ -3,7 +3,7 @@ from django.contrib import admin
 from .models import Choice, Question
 
 
-class ChoiceTabular(admin.TabularInline): # Можно использовать StackedInline
+class ChoiceTabular(admin.TabularInline):  # Можно использовать StackedInline
     model = Choice
     extra = 0
 
